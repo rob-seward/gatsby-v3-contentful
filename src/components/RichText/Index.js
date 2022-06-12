@@ -11,7 +11,7 @@ export const RichText = ({raw, references=[]})=> {
     const referencesMap = {};
     references.forEach( reference => {
         referencesMap[reference.contentful_id] = reference;
-    })
+    });
 
     const options = {
         renderNode: {

@@ -1,15 +1,15 @@
 import React from 'react';
 import {
+   
     PriceOptionStyled,
     PriceGroupWrapper, 
     PriceOptionInnerStyled,
     MostPopularLabel,
 
 } from './style';
-import {RichText} from '../RichText';
+import { RichText } from 'components';
 
 export function PriceGroup({priceOptions}) {
-    console.log(priceOptions);
     
     return (
         <PriceGroupWrapper>
