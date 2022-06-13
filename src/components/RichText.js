@@ -1,13 +1,24 @@
 import React from 'react';
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
-import { Hero, PriceGroup } from 'components';
-
+import { Hero, PriceGroup } from '../components';
+import styled from 'styled-components';
 
 import {GatsbyImage} from 'gatsby-plugin-image';
-import { Wrapper, ImageWrapper } from './style';
 
 
+const Wrapper = styled.div`
+        > p, h1, h2, h3, h4 ,h5, h6 {
+                max-width: 1000px;
+                margin: 0 auto;
+        }
+
+`;
+
+const ImageWrapper = styled.div`
+                max-width: 1000px;
+                margin: 0 auto;         
+`;
 
 export const RichText = ({raw, references=[]})=> {
     const referencesMap = {};

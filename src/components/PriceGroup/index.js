@@ -6,7 +6,7 @@ import {
     MostPopularLabel,
 } from './style';
 
-import { RichText } from 'components';
+import { RichText } from '../RichText';
 
 export function PriceGroup({priceOptions}) {
     

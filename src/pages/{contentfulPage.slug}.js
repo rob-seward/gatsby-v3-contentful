@@ -1,11 +1,12 @@
 import React from 'react';
-import { Layout, RichText, SEO } from '../components';
+import { Layout, SEO } from '../components';
+import { RichText } from '../components/RichText';
 import { graphql } from 'gatsby';
 
 
 
 export default function ContentfulPage(props) {
-    console.log(props);
+    
     return (
         <Layout>
           <SEO title={props.data.contentfulPage.title} description={props.data.contentfulPage.description}/>
