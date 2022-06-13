@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, RichText, SEO } from 'components';
+import { Layout, RichText, SEO } from '../components';
 import { graphql } from 'gatsby';
 
 

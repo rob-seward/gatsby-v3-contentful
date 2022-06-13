@@ -1,8 +1,8 @@
 import React from 'react';
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
-import { Hero } from '../Hero';
-import { PriceGroup } from '../PriceGroup';
+import { Hero, PriceGroup } from 'components';
+
 
 import {GatsbyImage} from 'gatsby-plugin-image';
 import { Wrapper, ImageWrapper } from './style';
